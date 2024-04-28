@@ -1,0 +1,60 @@
+body{
+/*background-image: url('images.png');
+background-size: contain;
+*/
+background-color: rgba(245, 188, 233, 0.486);
+}
+.titre{
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    padding: 10px;
+}
+.text{
+    color: rgb(26, 23, 23);
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.mainDiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    margin-left: 7.5rem;
+    height: auto;
+    width: 80%;
+}
+@media screen and (max-width:578px) {
+    .card{
+        margin-left: 1.2rem;
+        height: 400px;
+        width: 350px;
+    }
+}
+@media screen and (max-width:503px) {
+    .card{
+        margin-left: 1.2rem;
+    }
+}
+@media screen and (max-width:469px) {
+    .card{
+        margin-left: 1.2rem;
+    }
+}
+@media screen and (max-width:437px) {
+    .card{
+        margin-left: 2.2rem;
+    }
+}
+@media screen and (max-width:415px) {
+    .card{
+        margin-left: 1.2rem;
+    }
+}
+@media screen and (max-width:390px) {
+    .card{
+        margin-left: 1.2rem;
+        height: 420px;
+        width: 330px;
+    }
+}
